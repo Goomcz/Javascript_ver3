@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\codingTest_MW_Ver2\\MKW_CodingTest"
+	},
+	{
+		"path": "..\\Javascript"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Javascript"
+  }
+}
