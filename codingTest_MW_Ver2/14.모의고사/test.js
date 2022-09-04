@@ -1,4 +1,4 @@
-// 오브젝트 배열의 가능한 형태들 
+/*// 오브젝트 배열의 가능한 형태들 
 let countObj = {1 : 0, 2 : 0, 3 : 0};
 let myObj = {'age':28, 'sex': 'male', 'height':180, 'weight':85};
 // 오브젝트 배열의 배열 형태
@@ -14,6 +14,16 @@ myObj['sex'] = 'female';
 
 console.log(Object.values(countObj)); // 오브젝트 배열에서 전체 values 추출
 console.log(myObj['age']);
-console.log(Object.key(29));
 
+let countObj = {'1' : 0,'2' : 0,'3' : 0};
+// Object.values(하고싶은 배열)에 일반 sort 메서드와 비교함수 적용
+// 하면 value 값들만 정렬된다, 객체는 key로 접근하기 때문에 안될거 같은데 내가 원하는 기능 구현이
+let newObjectArray = Object.values(countObj).sort(function(a,b){
+    return a-b;
+});
+console.log(newObjectArray);
+*/
+
+let array = [1,2,3];
+console.log(Math.max(...array));
 

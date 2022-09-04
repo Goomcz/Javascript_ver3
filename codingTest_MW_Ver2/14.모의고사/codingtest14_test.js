@@ -1,18 +1,6 @@
 let a = [1,2,4,5,3,3];
-
-/*console.log(Math.max(...a)); // 전개 연산자 쓰지 않으면 NaN 나옴
-
-a.sort(function(a,b){
-return a-b;
-});
-
-console.log(a);
-*/
-
-let count1 = 0;
-let count2 = 0;
-let count3 = 0;
-let answer = [1, 2, 3, 4, 5, 1,2,3,4,5]; // 5개
+let count1 = 0; let count2 = 0; let count3 = 0;
+let answer = [1, 2, 3, 4, 5];
 let mathGiveup1 = [1,2,3,4,5];
 let mathGiveup2 = [2,1,2,3,2,4,2,5];
 let mathGiveup3 = [3,3,1,1,2,2,4,4,5,5];
@@ -49,13 +37,3 @@ for(let j=0; j<countArray.length; j++){
         realAnswer.push(countMap.get(countArray[j]));
     }
 }
-console.log(realAnswer);
-/*let mathKing = [countObj[2]];
-if(countObj[2]===countObj[1]===countObj[0]){
-mathKing.push(countObj[1]);
-mathKing.push(countObj[0]);
-} else if(countObj[2]===countObj[1]){
-    mathKing.push(countObj[1]);
-}
-
-console.log(MathKing);*/
